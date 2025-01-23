@@ -1,0 +1,37 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures the header stays on top of other content */
+    background-color: #979797; /* Optional: sets background color */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow for better visibility */
+}
+html {
+    scroll-padding-top: 50px; /* Adjust to the height of your header */
+}
+.container {
+    max-width: 1000px; /* Optional: You can set a max width for your container */
+}
+.nav-link {
+    color: white !important;
+    
+}
+#home, #about, #portfolio, #services, #portfolio1, #contact, #ads{
+    background: #fcfff4;
+    padding: 60px 0;
+    text-align: center;
+}
+#portfolio img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+footer {
+    background: #979797;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
